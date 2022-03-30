@@ -23,6 +23,8 @@
   width: 25%;
   border-radius: 15px;
   box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 .center-div h1{

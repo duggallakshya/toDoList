@@ -11,6 +11,10 @@ const App = () => {
     }
 
     const addItem = () => {
+        if(item === ''){
+            alert("Please enter a task");
+            return;
+        }
         setItemArray((prev) => {
             return [...prev,item]
         });
